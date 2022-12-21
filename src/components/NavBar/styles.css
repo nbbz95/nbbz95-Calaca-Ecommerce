@@ -1,0 +1,45 @@
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #000000;
+    background-color: #e7dede;
+    position: relative;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}
+
+.nav-item {
+    float: left;
+}
+
+.nav-item a {
+    display: block;
+    color: rgb(2, 2, 2);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    background-color: rgb(245, 73, 73);
+}
+
+.widget-container {
+    position: absolute;
+    right: 40px;
+    top: 6px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+
